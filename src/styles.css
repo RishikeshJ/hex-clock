@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 html, 
 body {
-    height: 100%;
+  
 }
 
 .clock{
@@ -9,9 +9,7 @@ body {
     font-size: 5vw;
 }
 
-.height-cont{
-   height: 100%; 
-}
+
 .container-fluid{
     padding-right:0;
     padding-left:0;
