@@ -17,7 +17,6 @@ export class AppComponent implements OnInit{
     setInterval(() => {
       this.time = new Date();
       this.hex = '#' + this.datepipe.transform(this.time, 'hhmmss');
-      console.log(this.hex);
     }, 1);
   }
   constructor(public datepipe: DatePipe) {}
