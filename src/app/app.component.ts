@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css'],
   providers:[DatePipe]
 })
-export class AppComponent implements OnInit{
+export class AppComponent implements OnInit {
   title = 'hex-clock';
   public time = new Date();
   public hex: string;
