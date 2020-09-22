@@ -5,10 +5,14 @@ body {
 }
 
 .clock{
-    font-family: "Roboto", sans-serif;
+    font-family: "montserrat";
     font-size: 5vw;
+    text-shadow: 2px 2px black;
 }
 
+*{
+    font-family: "montserrat";
+}
 
 .container-fluid{
     padding-right:0;

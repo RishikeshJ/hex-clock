@@ -20,7 +20,7 @@ export class AppComponent implements OnInit {
       this.time = new Date();
       this.hex = '#' + this.datepipe.transform(this.time, 'hhmmss');
       this.gradient = '#' + 90 + this.datepipe.transform(this.time, 'mss');
-      this.bgImage = this.sanitizer.bypassSecurityTrustStyle('linear-gradient(-225deg,' + this.hex + ' 50%, ' + this.gradient+ ' 80%)');
+      this.bgImage = this.sanitizer.bypassSecurityTrustStyle('linear-gradient(-225deg,' + this.hex + ' 50%, ' + this.gradient + ' 80%)');
     }, 1);
   }
   constructor(public datepipe: DatePipe, private sanitizer: DomSanitizer) {
