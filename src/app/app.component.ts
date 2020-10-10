@@ -24,7 +24,6 @@ export class AppComponent implements OnInit {
     }, 1);
   }
   constructor(public datepipe: DatePipe, private sanitizer: DomSanitizer) {
-    
   }
 
   
